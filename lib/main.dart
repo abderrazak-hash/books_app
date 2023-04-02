@@ -64,13 +64,18 @@ class BooksList extends StatelessWidget {
           children: [
             const Center(child: Text('كل الكتب')),
             Container(
-              margin: const EdgeInsets.all(15.0),
+              margin: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 3),
               child: Row(children: [
                 Container(
                   height: 80.0,
                   width: 60.0,
                   color: Colors.blue,
-                  child: const Center(child: Text('صورة الكتاب')),
+                  child: const Center(
+                    child: Text(
+                      'صورة الكتاب',
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
                 ),
                 const SizedBox(width: 10.0),
                 const Center(
@@ -85,7 +90,11 @@ class BooksList extends StatelessWidget {
                   height: 80.0,
                   width: 60.0,
                   color: Colors.blue,
-                  child: const Center(child: Text('صورة الكتاب')),
+                  child: const Center(
+                      child: Text(
+                    'صورة الكتاب',
+                    textAlign: TextAlign.center,
+                  )),
                 ),
                 const SizedBox(width: 10.0),
                 const Center(
@@ -100,7 +109,11 @@ class BooksList extends StatelessWidget {
                   height: 80.0,
                   width: 60.0,
                   color: Colors.blue,
-                  child: const Center(child: Text('صورة الكتاب')),
+                  child: const Center(
+                      child: Text(
+                    'صورة الكتاب',
+                    textAlign: TextAlign.center,
+                  )),
                 ),
                 const SizedBox(width: 10.0),
                 const Center(
@@ -115,7 +128,11 @@ class BooksList extends StatelessWidget {
                   height: 80.0,
                   width: 60.0,
                   color: Colors.blue,
-                  child: const Center(child: Text('صورة الكتاب')),
+                  child: const Center(
+                      child: Text(
+                    'صورة الكتاب',
+                    textAlign: TextAlign.center,
+                  )),
                 ),
                 const SizedBox(width: 10.0),
                 const Center(
